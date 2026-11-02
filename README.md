@@ -103,3 +103,4 @@ Restart Metro after changing `.env`. Android emulator: `http://10.0.2.2:4000/v1`
 - VTU provider networks (wallet is still debited; transaction marked success)
 - Bank withdrawals (debit + pending, no NIP payout)
 - Electricity token is a demo string
+"# MADOBIPAY" 
