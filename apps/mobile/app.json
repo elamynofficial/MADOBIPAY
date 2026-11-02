@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "MADOBIPAY",
+    "slug": "madobipay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "madobipay",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.madobipay.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FF6F00"
+      },
+      "package": "com.madobipay.app"
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FF6F00"
+        }
+      ],
+      "expo-secure-store",
+      "expo-font",
+      "expo-local-authentication",
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
